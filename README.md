@@ -1,2 +1,2 @@
-# One-Notch-Landing-Page-
-This repository contains the code for landing page of One Notch
+# One-Notch-Landing-Page
+This has the landing page with sign in for One Notch.

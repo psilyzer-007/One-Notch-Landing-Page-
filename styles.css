@@ -1,0 +1,165 @@
+/*colors #E3E4FF #a2e9ff  
+
+button{
+    background: #0D0F3A;
+border-radius: 10px;}
+
+
+*/
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+}
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100vh;
+  align-items: center;
+}
+.black {
+  color: #0d0f3a;
+}
+.lefth1 {
+  text-align: center;
+  font-size: 3em;
+  width: 60%;
+  margin: auto;
+}
+.logo {
+  width: 14em;
+  height: auto;
+  margin: 0px auto 3rem;
+}
+.left,
+.right {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  background-image: linear-gradient(
+      rgba(115, 216, 248, 0.7),
+      rgba(115, 216, 248, 0.7)
+    ),
+    url("./static/images/bg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.right {
+  background-color: #e3e4ff;
+  width: 40%;
+  height: 100%;
+}
+
+.login {
+  background-color: #a2e9ff;
+  padding: 4rem 4rem 2rem;
+  box-shadow: 0px 4px 40px #000000;
+  border-radius: 10px;
+  width: 80%;
+  margin-bottom: 3rem;
+}
+.user,
+.pass {
+  margin-bottom: 1.5rem;
+}
+label {
+  font-weight: bold;
+}
+input {
+  width: 15rem;
+  height: 2rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+h3 {
+  display: inline;
+  font-size: 1em;
+  margin-right: 2.2rem;
+  cursor: pointer;
+}
+button {
+  background: #0d0f3a;
+  border-radius: 10px;
+  color: #fff;
+  width: 5em;
+  height: 2.5em;
+  cursor: pointer;
+}
+.righth1 {
+  font-size: 1.8em;
+  margin-bottom: 1rem;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.social-media img {
+  margin-right: 1rem;
+  width: 3rem;
+  height: auto;
+  cursor: pointer;
+}
+.loginh2 {
+  text-align: center;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.bgimg {
+  position: absolute;
+  transform: scale(0.8);
+}
+.right {
+  position: relative;
+}
+.skirt {
+  bottom: -1rem;
+  left: -4rem;
+  transform: scale(0.8);
+}
+.left {
+  position: relative;
+  z-index: 1000;
+}
+.glass {
+  top: -1rem;
+  right: -2rem;
+}
+.bag {
+  bottom: -1.1rem;
+  right: -4rem;
+}
+.ring {
+  top: -2rem;
+  left: -10rem;
+}
+.cap {
+  transform: scale(0.9);
+  top: -0.3rem;
+  left: 8rem;
+}
+#logo-animation {
+  position: fixed;
+  display: relative;
+
+  top: 0;
+  bottom: 0;
+}
+.loader {
+  z-index: 2000;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+}
